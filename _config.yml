@@ -1,0 +1,58 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+title: Daoxin Li
+baseurl: "" # the subpath of the site
+url: "https://daoxinli.github.io" # the base hostname & protocol for the site
+og_image: /assets/img/profile-pic.jpg
+google_analytics: "UA-121636368-3"
+
+header:
+  pages:
+    - name: About
+      slug: /
+    - name: CV
+    - name: Publications
+    - name: Presentations
+    - name: Teaching
+    
+
+footer:
+  show_powered_by: true
+  contact:
+    - name: Email
+      value: daoxinli@sas.upenn.edu
+      link: mailto:daoxinli@sas.upenn.edu
+  follow:
+    - name: GoogleScholar
+      link: https://scholar.google.com/citations?user=4eKbdUEAAAAJ
+    - name: ResearchGate
+      link: https://www.researchgate.net/profile/Daoxin-Li
+    - name: GitHub
+      link: http://github.com/daoxinli
+    - name: LinkedIn
+      link: http://linkedin.com/in/daoxin-li-957258128
+ 
+
+# Build settings
+markdown: kramdown
+sass:
+    style: :compressed
+plugins:
+  - jekyll-feed
+
+# Excluded items
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - feed.xml
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Used for defeating caching
+version: 1
