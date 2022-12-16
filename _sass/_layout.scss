@@ -94,7 +94,7 @@
  */
 .site-footer {
   border-top: 1px solid $grey-color-light;
-  // padding: $spacing-unit 0;
+  padding: $spacing-unit 0;
 
   @include media-query($on-mobile) {
     padding-top: 10px;
@@ -103,8 +103,7 @@
 
 .footer-heading {
   font-size: 18px;
-  // margin-bottom: $spacing-unit / 2;
-  margin-bottom: 0;
+  margin-bottom: $spacing-unit / 2;
 }
 
 .contact-list,
