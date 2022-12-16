@@ -6,7 +6,8 @@
   min-height: 56px;
 
   padding-top: 10px;
-  padding-bottom: 10px;
+  // padding-bottom: 10px;
+  padding-bottom: 0;
 
   @include media-query($on-mobile) {
     padding-top: 0;
