@@ -95,6 +95,7 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  padding-bottom: 0; # added
 
   @include media-query($on-mobile) {
     padding-top: 10px;
