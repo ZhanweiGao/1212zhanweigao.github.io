@@ -3,10 +3,12 @@
  */
 .site-header {
   border-bottom: 1px solid $grey-color-light;
-  min-height: 56px;
+  // min-height: 56px;
+  min-height: 100%;
 
   padding-top: 10px;
-  padding-bottom: 10px;
+  // padding-bottom: 10px;
+  padding-bottom: 100%;
 
   @include media-query($on-mobile) {
     padding-top: 0;
